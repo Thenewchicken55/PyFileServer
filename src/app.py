@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
 import os
-from gui.interface import FileUploaderGUI
+from gui.gui import FileUploaderGUI
 from network.transfer import FileTransfer
 
 app = Flask(__name__)
